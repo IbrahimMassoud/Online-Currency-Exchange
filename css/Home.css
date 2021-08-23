@@ -1,0 +1,516 @@
+body{
+	margin: 0;
+}
+/*==================== Start Header =================*/
+.header_top {
+	overflow: hidden;
+	min-height: 90px;
+	background-color: white;
+	padding: 8px 0;
+}
+.header_top .logo {
+	float: left;
+	width: 28%;
+    padding-left: 15px;
+}
+.header_top .logo img{
+	padding-top: 7px;
+}
+.header_top .contact_info {
+	float: left;
+	width: 70%;
+}
+.header_top ul {
+	list-style: none;
+	float: right;
+	width: 95%;
+	margin: 0;
+	padding: 21px 0;
+	text-align: center;
+}
+.header_top ul li {
+	float: left;
+	width: 33%;
+}
+.header_top ul li a {
+	text-decoration: none;
+	color: #1f1f1f;
+	height: 38px;
+	line-height: 38px;
+}
+.header_top ul li a:hover {
+	color: #ff880e;
+}
+.header_top ul li img{
+	margin-right: 10px;
+}
+.header_top ul li span {
+	position: relative;
+    bottom: 5px
+}
+.header_top ul li a.join {
+	background: #ff880e;
+	width: 180px;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 75px;
+	color: #fff;
+	font-weight: 300;
+	display: inline-block;
+}
+	
+.header_top ul li a.join:hover {
+	background: #222;
+	color: #fff !important;
+}
+.header_bottom .pages {
+	overflow: hidden;
+}
+.header_bottom .left{
+	float: left;
+	width: 30%;
+	background-color: #111;
+	min-height: 68px;
+}
+.header_bottom .right{
+	float: left;
+	width: 70%;
+	background-color: #ff880e;
+	min-height: 68px;
+}
+.header_bottom ul {
+	padding: 15px 0;
+	margin: 0 auto;
+	list-style: none;
+	width: 85%;
+	text-align: center;
+}
+.header_bottom ul li {
+	display: inline-block;
+	padding: 7px 0;
+}
+.header_bottom ul li a{
+	font-size: 20px;
+    padding: 10px 22px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+.header_bottom ul li a:hover{
+	cursor: pointer;
+	color: white;
+}
+.header_bottom .title {
+	background-color: #111;
+	padding: 8px;
+}
+.header_bottom .title h3 {
+	font-size: 42px;
+	color: white;
+	padding-left: 20px;
+}
+/*================= End Header =================*/
+/*================= Start Slider =================*/
+.slider {
+	background: url(../images/slide_img.png);
+    background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	position: relative;
+}
+.slider h3 {
+	position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 70px;
+    color: white;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.slider h3 span {
+	font-weight: bold;
+	font-size: 130px;
+}
+.slider a{
+	display: inline-block;
+    border: 2px solid white;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+	font-size: 18px;
+	position: absolute;
+	bottom: 60px;
+	left: 50px;
+}
+.slider div {
+	position: absolute;
+	bottom: 20px;
+	left: 48%;
+}
+.slider div span {
+	display: inline-block;
+    width: 30px;
+    height: 8px;
+    background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.slider div .active {
+	background-color: #ff880e;
+}
+.slider a:hover {
+	color: #ff880e;
+	cursor: pointer;
+}
+/*================= End Slider =================*/
+/*================= Start Exchange =================*/
+.exchange {
+	overflow: hidden;
+}
+.exchange .left {
+	float: left;
+	width: 45%;
+}
+.exchange .left img {
+	width: 100%;
+}
+.exchange .right {
+	float: left;
+	width: 51%;
+	padding:0 20px;
+}
+.exchange h2 {
+	font-size: 40px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding: 0 10px 12px 0;
+	width: 400px;
+}
+.exchange .right span {
+	color: #ff880e;
+	display: inline-block;
+	margin-bottom: 25px;
+	
+}
+.exchange .right p {
+	width: 65%;
+	line-height: 1.6;
+	color: #666;
+}
+.exchange .right a{
+	display: inline-block;
+    border: 2px solid #ff880e;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+	font-size: 18px;
+	
+}
+/*================= End Exchange =================*/
+/*================= Start services =================*/
+.services {
+	padding: 40px 15px;
+	overflow: hidden;
+}
+.services h2{
+	font-size: 40px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding-bottom: 12px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+.services .sep {
+	margin: 0 0 40px 0;
+}
+.services .first,
+.services .second,
+.services .third,
+.services .fourth {
+	float: left;
+	width: 24%;
+	border: 1px solid #dfdfdf;
+}
+.services img {
+	width: 100%;
+}
+.services h4 {
+	font-size: 32px;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+.more {
+	text-align: center;
+	padding: 50px 0 10px ;
+}
+.services a {
+	display: inline-block;
+    border: 2px solid #ff880e;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+	font-size: 18px;
+	margin: auto;
+}
+/*================= End services =================*/
+/*================= Start Apply For exchange =================*/
+.apply_exchange {
+	overflow: hidden;
+	padding: 30px 0;
+}
+.apply_exchange .left {
+	float: left;
+	width: 45%;
+	padding: 10px 0;
+}
+.apply_exchange .left img {
+	width: 100%;
+}
+.apply_exchange .right {
+	float: left;
+	width: 51%;
+	padding:10px 20px 60px;
+	background-color: #2a2a2a;
+	color: white;
+}
+.apply_exchange h2 {
+	font-size: 40px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding: 0 10px 12px 0;
+	width: 345px;
+}
+.apply_exchange .right span {
+	color: #ff880e;
+}
+.apply_exchange .right p {
+	width: 65%;
+	line-height: 1.6;
+}
+.apply_exchange .right a{
+	display: inline-block;
+    border: 2px solid #ff880e;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+	font-size: 18px;
+	background-color: white;
+}
+/*================= End Apply For exchange =================*/
+/*================= Start About =================*/
+.about {
+	overflow: hidden;
+	padding: 30px 0;
+}
+.about .right {
+	float: left;
+	width: 45%;
+	padding: 10px 0;
+}
+.about .left img {
+	width: 100%;
+}
+.about .left {
+	float: left;
+	width: 51%;
+	padding:10px 20px 60px;
+}
+.about h2 {
+	font-size: 42px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding: 0 10px 12px 0;
+	width: 145px;
+}
+.about .left p {
+	width: 65%;
+	line-height: 1.75;
+    font-size: 18px;
+}
+.about .left a{
+	display: inline-block;
+    border: 2px solid #ff880e;
+    padding: 10px 25px;
+    color: black;
+    text-decoration: none;
+	font-size: 22px;
+	background-color: white;
+}
+/*================= End About =================*/
+/*================= Start News =================*/
+.news {
+	padding: 40px 15px;
+	overflow: hidden;
+}
+.news h2{
+	font-size: 40px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding-bottom: 12px;
+	width: 160px;
+	margin: auto;
+	text-align: center;
+}
+.news .sep {
+	margin: 0 0 40px 0;
+}
+.news_cont {
+	overflow: hidden;
+}
+.news_cont .news_blog {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+.news_cont .news_blog:hover .details {
+	opacity: .7;
+	cursor: pointer;
+}
+.news_cont .news_blog img {
+	width: 100%;
+}
+.news_cont .news_blog  .details h3 {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 28px;
+}
+.news_cont .news_blog  .details {
+	background-color: #ff880e;
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+/* ======================== End News ==========================*/
+/*======================== Start Contact Me ========================*/
+.seperator {
+	padding: 50px 80px 100px;
+	background-color: white;
+	text-align: center;
+}
+.seperator h3 {
+	font-size: 40px;
+	font-weight: 700;
+    border-bottom: 5px solid #ff880e;
+    margin-bottom: 25px;
+	padding-bottom: 12px;
+	width: 200px;
+	margin: auto;
+}
+.regist {
+	background: url(../images/contact_bg.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0
+}
+.regist form {
+	margin: auto;
+	width: 40%;
+	text-align: center;
+}
+.regist form input,
+.regist form textarea {
+	width: 100%;
+    padding: 22px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+	background-color: black;
+	font-size: 18px;
+}
+.regist form input[type="submit"]{
+	width: 40%;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 500;
+	padding: 17px;
+	margin-top: 15px;
+}
+.regist form input[type="submit"]:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.regist form textarea {
+	min-height: 120px;
+}
+/*================= End Contact Me =================*/
+/*================= Start footer =================*/
+.footer {
+	background-color: #3a1e02;
+	padding: 15px;
+	overflow: hidden;
+}
+.footer .one,
+.footer .two,
+.footer .three,
+.footer .four {
+	float: left;
+	width: 24%;
+	color: white;
+}
+.footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer ul li {
+    margin: 10px 0;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 3px 0;
+}
+.footer ul li a:hover{
+	color: #ff880e;
+}
+.footer h3 {
+	font-size: 30px;
+    border-bottom: solid #d66c0b 4px;
+    margin-bottom: 25px;
+    width: 80%;
+    padding-bottom: 12px;
+}
+.footer p {
+	line-height: 1.8;
+	font-size: 17px;
+}
+.footer .three input {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.footer .three  button {
+	padding: 10px 40px;
+    color: white;
+    background-color: #ff880e;
+    outline: none;
+    border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footer ul li img {
+	margin-right: 15px;
+	position: relative;
+    top: 10px;
+}
+.copy {
+	background-color: #532a02;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+/*================= End footer =================*/

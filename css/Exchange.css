@@ -1,0 +1,254 @@
+body{
+	margin: 0;
+}
+/*==================== Start Header =================*/
+.header_top {
+	overflow: hidden;
+	min-height: 90px;
+	background-color: white;
+	padding: 8px 0;
+}
+.header_top .logo {
+	float: left;
+	width: 28%;
+    padding-left: 15px;
+}
+.header_top .logo img{
+	padding-top: 7px;
+}
+.header_top .contact_info {
+	float: left;
+	width: 70%;
+}
+.header_top ul {
+	list-style: none;
+	float: right;
+	width: 95%;
+	margin: 0;
+	padding: 21px 0;
+	text-align: center;
+}
+.header_top ul li {
+	float: left;
+	width: 33%;
+}
+.header_top ul li a {
+	text-decoration: none;
+	color: #1f1f1f;
+	height: 38px;
+	line-height: 38px;
+}
+.header_top ul li a:hover {
+	color: #ff880e;
+}
+.header_top ul li img{
+	margin-right: 10px;
+}
+.header_top ul li span {
+	position: relative;
+    bottom: 5px
+}
+.header_top ul li a.join {
+	background: #ff880e;
+	width: 180px;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 75px;
+	color: #fff;
+	font-weight: 300;
+	display: inline-block;
+}
+	
+.header_top ul li a.join:hover {
+	background: #222;
+	color: #fff !important;
+}
+.header_bottom .pages {
+	overflow: hidden;
+}
+.header_bottom .left{
+	float: left;
+	width: 30%;
+	background-color: #111;
+	min-height: 68px;
+}
+.header_bottom .right{
+	float: left;
+	width: 70%;
+	background-color: #ff880e;
+	min-height: 68px;
+}
+.header_bottom ul {
+	padding: 15px 0;
+	margin: 0 auto;
+	list-style: none;
+	width: 85%;
+	text-align: center;
+}
+.header_bottom ul li {
+	display: inline-block;
+	padding: 7px 0;
+}
+.header_bottom ul li a{
+	font-size: 20px;
+    padding: 10px 22px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+.header_bottom ul li a:hover{
+	cursor: pointer;
+	color: white;
+}
+.header_bottom .title {
+	background-color: #111;
+	padding: 8px;
+}
+.header_bottom .title h3 {
+	font-size: 42px;
+	color: white;
+	padding-left: 20px;
+}
+/*================= End Header =================*/
+/*==================== Start slider =================*/
+.slider_i{
+	background-color: black;
+}
+.container_i
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.container_i h2 {
+	font-size: 40;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 120px;
+	padding-top: 70px;
+}
+/*==================== End Slider =================*/
+/*==================== Start Body =================*/
+.Body{
+	overflow: hidden;
+}
+.Body .BodyLeft{
+	float: left;
+	width: 50%;
+}
+.Body .BodyRight{
+	float:right;
+	width: 50%;
+}
+.Body .BodyRight h2{
+	padding-left: 0px;
+	font-weight: 700;
+	font-size:40 ;
+	padding-left: 60px;
+	margin-bottom: 10px;
+}
+.Paragraph {
+	color: #666;
+	width: 65%;
+	padding-left: 60px;
+	font-size:18 ;
+	padding-top: 35px;
+	margin-bottom: 50px;
+	
+}
+
+.BodyLeft img {
+	width: 100%;
+}
+.Body .BodyRight h2 span {
+	display: inline-block;
+	color:#ff880e ;
+	border-bottom: #ff880e solid 5px;
+	padding-bottom: 10px;
+	
+}
+.BodyRight a {
+	text-decoration: none;
+	border: #ff880e solid 2px;
+	font-size:18 ;
+	padding:10px ;
+	padding-left:25px ;
+	padding-right:25px ;
+	color: black;
+	margin-left:60px;
+	margin-top: 50px;
+	
+}
+/*==================== End Body =================*/
+/*================= Start footer =================*/
+.footer {
+	background-color: #3a1e02;
+	padding: 15px;
+	overflow: hidden;
+}
+.footer .one,
+.footer .two,
+.footer .three,
+.footer .four {
+	float: left;
+	width: 24%;
+	color: white;
+}
+.footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer ul li {
+    margin: 10px 0;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 3px 0;
+}
+.footer ul li a:hover{
+	color: #ff880e;
+}
+.footer h3 {
+	font-size: 30px;
+    border-bottom: solid #d66c0b 4px;
+    margin-bottom: 25px;
+    width: 80%;
+    padding-bottom: 12px;
+}
+.footer p {
+	line-height: 1.8;
+	font-size: 17px;
+}
+.footer .three input {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.footer .three  button {
+	padding: 10px 40px;
+    color: white;
+    background-color: #ff880e;
+    outline: none;
+    border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.footer ul li img {
+	margin-right: 15px;
+	position: relative;
+    top: 10px;
+}
+.copy {
+	background-color: #532a02;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+/*================= End footer =================*/
